@@ -22,10 +22,6 @@ main {
     grid-area: main;
 }
 
-footer {
-    grid-area: footer;
-}
-
 h1 {
     float: left;
     padding: 8px;
@@ -61,8 +57,7 @@ nav ul li {
     width: 800px;
 }
 
-.div-footer {
-    background-color: rgb(73, 73, 73);
+footer {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
