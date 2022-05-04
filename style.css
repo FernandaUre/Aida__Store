@@ -35,34 +35,12 @@ h1 {
     justify-content: flex-end;
 }
 
-nav ul li {
-    list-style: none;
-    margin-left: 75px;
-    padding: 25px 0;
-    float: left;
-}
-
-.banners {
-    text-align: center;
-    font-size: 26px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.ofertas {
-    margin-top: 100px;
-    width: 800px;
-}
-
 footer {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 200;
-    margin-top: 150px;
+    margin-top: 300px;
     
     display: flex;
     flex-direction: column;
@@ -70,24 +48,11 @@ footer {
     align-items: center;
 }
 
-.items {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 25px;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.items img {
-    width: 400px;
-    padding: 10px;
+div-contacto {
+    margin-top: 200px;
 }
 
 .div-contacto h4 {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-style: bold;
     font-weight: 700;
@@ -96,32 +61,10 @@ footer {
 }    
 
 .div-contacto p {
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    font-style: bold;
     font-weight: 300;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
-}
-
-.div-formulario {
-    text-align: center;
-    align-items:center;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    font-style: bold;
-    font-weight: 300;
-    color: #000000;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.btn-enviar {
-    width: 100px;
-    background-color: grey;
-    color: white;
-    border-radius: 4px;
 }
 
 .div-envios {
@@ -194,3 +137,4 @@ footer {
 .div-envios p {
     font-size: 20px;
 }
+
