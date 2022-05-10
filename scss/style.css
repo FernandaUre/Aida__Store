@@ -1,0 +1,108 @@
+footer {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+      grid-template-areas: "header nav" "main" "footer";
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: nav;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+div-contacto {
+  margin-top: 200px;
+}
+
+div-contacto h4 {
+  text-align: center;
+  font-style: bold;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+}
+
+div-contacto p {
+  font-weight: 300;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.div-envios {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.div-envios h5 {
+  font-size: 30px;
+  margin-top: 60px;
+  padding: 40px;
+  font-weight: 700;
+}
+
+.div-envios p {
+  font-size: 20px;
+}
+
+.div-pagos {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.div-pagos h5 {
+  font-size: 30px;
+  margin-top: 60px;
+  padding: 40px;
+  font-weight: 700;
+}
+
+.titulo-productos h4 {
+  margin: 25px;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #FBDCE2;
+  }
+}
+/*# sourceMappingURL=style.css.map */
